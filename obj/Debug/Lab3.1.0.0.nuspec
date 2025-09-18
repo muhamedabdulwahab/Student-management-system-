@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Lab3</id>
+    <version>1.0.0</version>
+    <authors>Lab3</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.Data.SqlClient" version="6.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\ITI lab\Ado.Net\lab3\Lab3\bin\Debug\net9.0\Lab3.runtimeconfig.json" target="lib\net9.0\Lab3.runtimeconfig.json" />
+    <file src="D:\ITI lab\Ado.Net\lab3\Lab3\bin\Debug\net9.0\Lab3.dll" target="lib\net9.0\Lab3.dll" />
+  </files>
+</package>
